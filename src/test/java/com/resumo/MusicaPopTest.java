@@ -9,12 +9,12 @@ public class MusicaPopTest {
     @Test
     public void testarInstalacaoMusicaPop() {
         IMusica musica = MusicaFactory.obterMusica("Pop");
-        assertEquals("Música de pop instalada", musica.instalar());
+        assertEquals("Música pop instalada", musica.instalar());
     }
 
     @Test
     public void testarDesinstalacaoMusicaPop() {
         IMusica musica = MusicaFactory.obterMusica("Pop");
-        assertEquals("Música de pop desinstalada", musica.desinstalar());
+        assertEquals("Música pop desinstalada", musica.desinstalar());
     }
 }

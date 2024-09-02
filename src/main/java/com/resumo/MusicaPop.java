@@ -3,10 +3,10 @@ package com.resumo;
 public class MusicaPop implements IMusica {
 
     public String instalar(){
-        return "Música de pop instalada";
+        return "Música pop instalada";
     }
 
     public String desinstalar(){
-        return "Música de pop desinstalada";
+        return "Música pop desinstalada";
     }
 }
